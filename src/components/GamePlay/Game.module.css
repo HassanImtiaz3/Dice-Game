@@ -1,0 +1,80 @@
+.totalScore h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: 100px;
+}
+
+.totalScore p {
+  font-size: 24px;
+  font-weight: 500px;
+}
+
+.totalScore {
+  max-width: 200px;
+  text-align: center;
+}
+
+.numberSelector {
+  width: 72px;
+  height: 72px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.selected {
+  background-color: rgb(
+    0,
+    0,
+    0
+  ); /* Change to the background color you prefer */
+  color: white; /* Change to the text color you prefer */
+}
+
+.wrapNumber {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.myError{
+  color: red !important;
+}
+
+/* Your existing CSS styles */
+
+@media screen and (max-width: 768px) {
+    .totalScore,
+    .myNumbers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        max-width: none; /* Remove the max-width for better centering */
+    }
+
+    .totalScore h1,
+    .myNumbers h1 {
+        font-size: 60px; /* Adjust the font size for better mobile display */
+        line-height: 70px; /* Adjust the line height as needed */
+    }
+
+    .totalScore p,
+    .myNumbers p {
+        font-size: 18px; /* Adjust the font size for better mobile display */
+    }
+
+    /* If needed, you can also add specific styles for the .myNumbers class */
+}

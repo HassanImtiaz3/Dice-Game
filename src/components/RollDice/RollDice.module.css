@@ -1,0 +1,50 @@
+.diceContainer {
+  display: flex;
+  margin-top: 48px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.diceContainer p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.myRules{
+  background-color: #fbf1f1 ;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.myRules h2{
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .myRules{
+    background-color: #fbf1f1 ;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  .myRules h2{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 9px;
+  }
+  
+
+}
